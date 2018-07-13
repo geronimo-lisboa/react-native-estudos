@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {AppRegistry, Text, View} from 'react-native';
-
 class BlinkingText extends Component{
     //construtor, setando o estado inicial do objeto
     constructor(props){
@@ -20,7 +19,6 @@ class BlinkingText extends Component{
         );
     }
 }
-
 export default class App extends Component{
     render(){
         return(
